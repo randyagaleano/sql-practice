@@ -163,6 +163,9 @@
 -- SELECT 
 -- 	CONCAT(
 -- 		'MY FAVORITE AUTHOR IS ',
--- 		CONCAT(author_fname, author_lname)
--- 	) AS yell
+-- 		UPPER(author_fname),
+-- 		' ', 
+-- 		UPPER(author_lname),
+-- 		'!'
+-- 	) 
 -- FROM books ORDER BY author_lname;
